@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food Lovers Hub</title>
+        <link rel="stylesheet" href="style.css"> 
+        </head>
+
+    </head>
+
+    <body>
+        <!--Header section-->
+        <header>
+            <h1>Welcome to Food Lovers Hub</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="home">
+                <h2>Home</h2>
+                <p>Welcome to my website! Enjoy the ride.</p>
+            </section>
+
+            <!-- Ordered List -->
+            <section>
+                <h2>Steps to Enjoy Your Meal</h2>
+                <ol>
+                    <li>Browse our menu and select your favorite dish</li>
+                    <li>Place your order online or visit our restaurant</li>
+                    <li>Customize your meal with add-ons and sides</li>
+                    <li>Enjoy your delicious food!</li>
+                </ol>
+            </section>
+    
+
+            <!-- Image from Pexels -->
+            <section>
+                <h2>Featured Dish</h2>
+                <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Burgers and Fries" width="600" height="600">
+                <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Pancakes" width="600" height="600">
+                <img src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Salad" width="600" height="600">
+                
+                <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="Cake" width="600" height="600">
+
+                <div id="special-offers-container">
+                    <button id="toggle-offers-btn">Show Special Offers</button>
+                </div>
+            </section>
+
+
+            <!-- Restaurants Table -->
+            <section>
+                <h2>Famous Restaurant Owners & Chefs</h2>
+                <table border="1">
+                    <tr>
+                        <th>Name</th>
+                        <th>Restaurant</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </tr>
+                    <tr>
+                        <td>Gordon Ramsay</td>
+                        <td>Hell's Kitchen</td>
+                        <td>+1234567890</td>
+                        <td>gordon@kitchen.com</td>
+                    </tr>
+                    <tr>
+                        <td>Jamie Oliver</td>
+                        <td>Jamie's Italian</td>
+                        <td>+9876543210</td>
+                        <td>jamie@italian.com</td>
+                    </tr>
+                    <tr>
+                        <td>Wolfgang Puck</td>
+                        <td>Spago</td>
+                        <td>+1122334455</td>
+                        <td>wolfgang@spago.com</td>
+                    </tr>
+                    <tr>
+                        <td>Rachael Ray</td>
+                        <td>Rachael's Kitchen</td>
+                        <td>+2233445566</td>
+                        <td>rachael@kitchen.com</td>
+                    </tr>
+                    <tr>
+                        <td>Bobby Flay</td>
+                        <td>Bobby's Burger Palace</td>
+                        <td>+3344556677</td>
+                        <td>bobby@burgers.com</td>
+                    </tr>
+                </table>
+            </section>
+            
+            <!-- Registration Form -->
+            <section id="register">
+                <h2>Join Our Food Community</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    <br>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <br>
+            
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+                    <br>
+            
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                    <br>
+            
+                    <label for="cuisine">Favorite Cuisine:</label>
+                    <select id="cuisine" name="cuisine" required>
+                        <option value="">Select your favorite cuisine</option>
+                        <option value="italian">Italian</option>
+                        <option value="japanese">Japanese</option>
+                        <option value="mexican">Mexican</option>
+                        <option value="indian">Indian</option>
+                    </select>
+                    <br>
+            
+                    <label>Dietary Restrictions:</label>
+                    <input type="checkbox" name="diet" value="vegan"> Vegan
+                    <input type="checkbox" name="diet" value="vegetarian"> Vegetarian
+                    <input type="checkbox" name="diet" value="gluten_free"> Gluten-Free
+                    <br>
+            
+                    <button type="submit">Register</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Contact us at: <a href="mailto:info@gmail.com">info@gmail.com</a></p>
+            <p>&copy; 2025 My website. All Rights Reserved</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
